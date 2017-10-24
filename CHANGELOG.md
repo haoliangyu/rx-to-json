@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file. See [standa
 <a name="0.1.2"></a>
 # 0.1.2 (2017-10-24)
 
-* Initial release
+* Update documentation
 
 <a name="0.1.0"></a>
 # 0.1.0 (2017-10-24)
