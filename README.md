@@ -19,7 +19,7 @@ npm install rx-to-json
 Import this library and it will add `toJSON` operator to the rxjs `Observable` class.
 
 ```
-public toJSON(path: string, columns: Array<string>, options?: any): Observable
+public toJSON(path: string, options?: any): Observable
 ```
 
 Parameters:
