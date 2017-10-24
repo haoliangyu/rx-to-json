@@ -6,6 +6,6 @@ declare module 'rxjs/Observable' {
   }
 
   interface Observable<T> {
-    toCSV(path: string, columns: Array<string>, options?: JSONOptions): Observable<T>;
+    toJSON(path: string, columns: Array<string>, options?: JSONOptions): Observable<T>;
   }
 }

@@ -24,8 +24,8 @@ public toJSON(path: string, columns: Array<string>, options?: any): Observable
 
 Parameters:
 
-  * **path**: csv file path
-  * **options**: optional configuration for the csv creation
+  * **path**: JSON file path
+  * **options**: optional configuration for the JSON creation
     * **header**: JSON header. Default: `[`
     * **footer**: JSON footer. Default: `]`
 
@@ -43,7 +43,7 @@ let data = [
 ];
 
 Observable.of(...data)
-  .toCSV('data.json')
+  .toJSON('data.json')
   .subscribe();
 
 // output file:
@@ -55,7 +55,7 @@ Download data from a PostgreSQL dadtabase and save it as a JSON file:
 
 ``` javascript
 import pgrx from 'pg-reactive';
-import 'rx-to-csv';
+import 'rx-to-json';
 
 let db = new pgrx('connection string');
 
@@ -67,7 +67,7 @@ db.query('SELECT id, display_name FROM users')
       name: row.display_name
     };
   })
-  .toCSV('data.json')
+  .toJSON('data.json')
   .subscribe();
 ```
 
