@@ -1,6 +1,6 @@
 {
   "name": "rx-to-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "RxJS 5 operator to write data into a JSON file",
   "main": "dist/rx-to-json.js",
   "scripts": {
